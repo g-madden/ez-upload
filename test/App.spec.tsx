@@ -5,6 +5,6 @@ import App from '../src/components/App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const headline = screen.getByRole("header", { name: "Hello World!" });
+  const headline = screen.getByRole("header");
   expect(headline).toBeInTheDocument();
 });

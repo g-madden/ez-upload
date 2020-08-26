@@ -8,7 +8,7 @@ const H1 = styled.h1`
 `;
 
 const App = () => (
-  <H1 aria-role="header">
+  <H1 role="header">
     Hello World!
   </H1>
 );
